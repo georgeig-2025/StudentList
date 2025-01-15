@@ -11,6 +11,7 @@ package studentlist;
 public class Student {
     private String name;
     public int studentID;
+    private String address;
 
     public int getStudentID() {
         return studentID;
@@ -27,7 +28,6 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
-    private String address;
 
     public String getName() {
         return name;
