@@ -19,12 +19,15 @@ public class StudentList {
         Student s1 = new Student();
         s1.studentID = 1;
         s1.setName("Fagun Vankawala");
+        s1.setAddress("1 new way");
         Student s2 = new Student();
         s2.studentID = 2;
         s2.setName("Palak Shah");
+        s2.setAddress("2 new way");
         Student s3 = new Student();
         s3.studentID = 3;
         s3.setName("Megh Vankawala");
+        s1.setAddress("3 new way");
 //        Student s4 = new Student();
 //        s4.setName("Megh Vankawala");
 //       
