@@ -4,10 +4,7 @@
  */
 package studentlist;
 
-/**
- *
- * @author fagun at 12/05/2024
- */
+
 public class Student {
     private String name;
     private String studentID;
