@@ -17,10 +17,13 @@ public class StudentList {
         // TODO code application logic here
         Student[] studentList = new Student[3];//change size before running
         Student s1 = new Student();
+        s1.studentID = 1;
         s1.setName("Fagun Vankawala");
         Student s2 = new Student();
+        s2.studentID = 2;
         s2.setName("Palak Shah");
         Student s3 = new Student();
+        s3.studentID = 3;
         s3.setName("Megh Vankawala");
 //        Student s4 = new Student();
 //        s4.setName("Megh Vankawala");
@@ -28,12 +31,13 @@ public class StudentList {
         studentList[0] = s1;
         studentList[1] = s2;
         studentList[2] = s3;
- 
+        
         //fill in 4 student names before running
         for (Student s : studentList) {
+            System.out.println(s.studentID);
             System.out.println(s.getName());
-    }
+        }
 
-}
+    }
 
 }

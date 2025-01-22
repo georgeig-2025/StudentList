@@ -4,25 +4,21 @@
  */
 package studentlist;
 
-
+/**
+ Email: christiangeorge602@gmail.com
+ *Date: 2025/1/22
+ * @author fagun at 12/05/2024
+ */
 public class Student {
     private String name;
-    private String studentID;
+    public int studentID;
     private String address;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getStudentID() {
+    public int getStudentID() {
         return studentID;
     }
 
-    public void setStudentID(String studentID) {
+    public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
 
@@ -33,7 +29,13 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
-    
-    
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
    
 }
