@@ -5,6 +5,7 @@
 package studentlist;
 
 /**
+ Email: christiangeorge602@gmail.com
  *Date: 2025/1/22
  * @author fagun at 12/05/2024
  */
